@@ -9,6 +9,7 @@ body {
     background-color: #fcfdff;
     color: #0f2a36;
     font-family: 'Merriweather', serif;
+    
    
 }
 
@@ -63,6 +64,7 @@ a{
   max-width: 1040px;
   margin: 80px auto 0;
   width: 100%;
+    
   
 }
 .summary p {
@@ -79,16 +81,187 @@ a{
 
 /*A'LA ARTICLE STYLES */
 
+h3{
+    color: #e02100;
+    font-size: 2em;
+    padding-bottom: 5%
+}
+
+p{
+    font-family: 'Open-sans', sans-serif;
+    line-height: 25px;
+}
+
 .preamble {
-    margin-top: 65vh;
-    width: 50%;
-    
-   
-    
+    margin-top: 60vh;
+    width: 40%;
+    float: left;
+    border-top: 5px solid #e02100;
+    background-color: rgba(255,255,255,0.9);
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 10vw;
+
 }
 
 .explanation {
+    float: right;
+    width: 49.8%;
+    position: relative;
+    margin-top: 52.8vh;
+     border-top: 5px solid #e02100;
+    background-color: rgba(255,255,255,0.9);
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.explanation h3{
+    padding-left: 5vw;
+    padding-right: 10vw;
+}
+.explanation p{
+    padding-left: 5vw;
+    padding-right: 10vw;
+}
+
+.participation{
+    position: relative;
+    float: left;
+    border-top: 5px solid #bad4ff;
+    padding-top: 20px;
+    background-color: #cee0ff;
+    padding-left: 10vw;
+     padding-right: 10vw;
+    
+}
+
+.participation h3{
+    width: 45%;
+    left: 50%;
+    float: left;
+    
+}
+
+.participation p{
+    width: 45%;
+    left: 50%;
+    float: left;
+    clear: left;
+}
+
+.participation:after{
+    background: url(images/participation.png) no-repeat right;
+    clear: right;
+    content: '';
+    display: block;
+    height: 412px;
+    margin-right: 5vw;
+}
+
+.benefits{
+    position: relative;
+    float: left;
+    padding-top: 80px;
+    background-color: #cee0ff;
+    padding-left: 10vw;
+     padding-right: 10vw;
+    padding-bottom: 50px;
+    border-bottom: 5px solid #bad4ff;  
+}
+
+.benefits h3 {
+    clear: left;
+    float: left;
+    left: 50%;
+    margin-left: 1.5%;
+    position: relative;
+    float: left;
+    width: 40%;
+    
+}
+
+.benefits p {
+  clear: left;
+    float: left;
+    left: 50%;
+    margin-left: 1.5%;
+    position: relative;
+    float: left;
+    width: 40%;
+}
+
+.benefits:before {
+    border: 1px solid #e02100;
+    content: '';
+    display: block;
+    height: 0px;
+    left: 50%;
+    position: absolute;
+    margin: -60px 0 0 -110px;
+    width: 220px;
+}
+
+.benefits:after {
+    background: url(images/benefits.png)  no-repeat center;
+    clear: right;
+    content: '';
+    display: block;
+    height: 412px;
+    margin-right: 5vw;
     width: 50%;
+}
+
+.requirements{
+    position: relative;
+    float: left;
+    padding-left: 10vw;
+     padding-right: 10vw;
+    padding-top: 20px;
+}
+
+.requirements h3 {
+  text-align: center;
+}
+.requirements p {
+  float: left;
+  margin-top: 0;
+  max-width: 495px;
+  width: 47.5%;
+    padding-bottom: 3%;
+}
+.requirements p:nth-child(-n+3) {
+  clear: left;
+  margin-right: 5%;
+}
+.requirements p:nth-child(4) {
+  position: absolute;
+  right: 0;
+padding-right: 9vw;
+}
+.requirements p:last-child {
+  font-size: 24px;
+  line-height: 1.25em;
+  margin-top: 40px;
+  max-width: none;
+  padding: 0 22.5% 20px;
+  text-align: center;
+  width: 55%;
+}
+.supporting fotter{
+    display: block;
+    position: relative;
+    float: left;
+    text-align: center;
+    margin-top: 100vh;
+    padding-left: 10vw;
+     padding-right: 10vw;
+}
+
+.wrapper{
+    position: relative;
+    float: left;
+    padding-left: 10vw;
+     padding-right: 10vw;
 }
    
    
